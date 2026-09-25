@@ -6,7 +6,7 @@ Orbitarium Design is the CSS + JS framework behind WebOrbiton's products, includ
 
 **No build step. No package manager. No configuration. Just CSS, JS, and real components.**
 
-[![License](https://img.shields.io/badge/license-Orbitarium%20Design%20License-blue.svg)](license.html)
+[![License](https://img.shields.io/badge/license-Orbitarium%20Design%20License-blue.svg)](http://orbitariumdesign.eu/license.html)
 [![Version](https://img.shields.io/badge/version-1.1-green.svg)](#)
 [![Size](https://img.shields.io/badge/size-~100KB-orange.svg)](#)
 [![Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](#)
