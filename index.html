@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <meta
+    name="theme-color"
+    content="#f8fafc"
+  >
+
+  <title>Hello World — Orbitarium Design</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="orb-reset">
+
+  <!-- Header -->
+  <header class="orb-site-header">
+    <div class="orb-container orb-site-header-inner">
+
+      <a href="#" class="orb-brand">
+        <span class="orb-brand-mark" aria-hidden="true">
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="12" cy="12" r="3"></circle>
+            <path d="M12 2v4"></path>
+            <path d="M12 18v4"></path>
+            <path d="M2 12h4"></path>
+            <path d="M18 12h4"></path>
+          </svg>
+        </span>
+
+        <span>Orbitarium</span>
+      </a>
+
+      <nav class="orb-site-nav" aria-label="Main navigation">
+        <a href="#hello" class="is-active">Hello</a>
+        <a href="#about">About</a>
+      </nav>
+
+      <button
+        type="button"
+        class="orb-btn orb-btn-ghost orb-menu-toggle"
+        data-orb-menu-toggle
+        aria-label="Toggle menu"
+        aria-expanded="false"
+      >
+        <span class="orb-icon-open">☰</span>
+        <span class="orb-icon-close">×</span>
+      </button>
+
+    </div>
+  </header>
+
+
+  <!-- Main -->
+  <main id="hello">
+
+    <section class="orb-hero orb-section">
+
+      <div class="orb-container orb-container-sm">
+
+        <div class="orb-hero-eyebrow">
+          <span
+            class="orb-color-dot orb-tone-blue"
+            aria-hidden="true"
+          ></span>
+
+          Orbitarium Design v1.1.0
+        </div>
+
+        <h1 class="orb-hero-title">
+          Hello World.
+        </h1>
+
+        <p class="orb-hero-subtitle">
+          A minimal example built entirely with Orbitarium Design.
+          No frameworks. No dependencies. Just CSS and JavaScript.
+        </p>
+
+        <div class="orb-hero-actions">
+
+          <button
+            type="button"
+            class="orb-btn orb-btn-primary"
+            onclick="Orbitarium.toast('Hello from Orbitarium!', { tone: 'success' })"
+          >
+            Say Hello
+          </button>
+
+          <button
+            type="button"
+            class="orb-btn orb-btn-secondary"
+            data-orb-theme-toggle
+            aria-pressed="false"
+          >
+            Toggle theme
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Content -->
+    <section id="about" class="orb-section">
+
+      <div class="orb-container">
+
+        <div class="orb-section-head orb-reveal">
+
+          <h2 class="orb-h2">
+            It works.
+          </h2>
+
+          <p class="orb-lead">
+            This page uses Orbitarium Design components and utilities
+            directly from the framework.
+          </p>
+
+        </div>
+
+
+        <div class="orb-grid orb-grid-3">
+
+          <article class="orb-feature orb-reveal">
+
+            <div class="orb-feature-icon orb-tone-blue">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+
+            <h3>Zero dependencies</h3>
+
+            <p>
+              Just include the CSS and JavaScript files.
+            </p>
+
+          </article>
+
+
+          <article class="orb-feature orb-reveal">
+
+            <div class="orb-feature-icon orb-tone-purple">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="12" cy="12" r="9"></circle>
+                <path d="M12 7v5l3 2"></path>
+              </svg>
+            </div>
+
+            <h3>Built-in behavior</h3>
+
+            <p>
+              Themes, menus, tabs, modals, dropdowns and toasts
+              are powered by Orbitarium JavaScript.
+            </p>
+
+          </article>
+
+
+          <article class="orb-feature orb-reveal">
+
+            <div class="orb-feature-icon orb-tone-emerald">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M20 6 9 17l-5-5"></path>
+              </svg>
+            </div>
+
+            <h3>Ready to use</h3>
+
+            <p>
+              Responsive components designed for real products.
+            </p>
+
+          </article>
+
+        </div>
+
+
+        <hr class="orb-divider">
+
+
+        <div class="orb-alert orb-alert-success orb-reveal">
+
+          <div class="orb-alert-icon">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M20 6 9 17l-5-5"></path>
+            </svg>
+          </div>
+
+          <div class="orb-alert-body">
+
+            <div class="orb-alert-title">
+              Orbitarium is running.
+            </div>
+
+            <div class="orb-alert-text">
+              CSS v1.1.0 and the Orbitarium JavaScript API are loaded.
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="orb-mt-8 orb-text-center orb-reveal">
+
+          <span class="orb-badge orb-badge-primary orb-tone-blue">
+            Orbitarium Design
+          </span>
+
+          <span class="orb-badge orb-badge-outline orb-tone-emerald">
+            v1.1.0
+          </span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- Footer -->
+  <footer class="orb-site-footer">
+
+    <div class="orb-container">
+
+      <div class="orb-flex orb-items-center orb-justify-between orb-gap-4">
+
+        <span class="orb-text-muted">
+          Orbitarium Design
+        </span>
+
+        <span class="orb-text-muted">
+          Hello World
+        </span>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
